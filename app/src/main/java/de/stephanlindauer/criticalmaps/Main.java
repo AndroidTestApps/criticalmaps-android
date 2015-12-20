@@ -132,8 +132,8 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
     }
 
     private void startDatenschutzIntent() {
-        throw new RuntimeException("DIS GON BLOW");
         IntentUtil.startFromURL(this, "http://criticalmaps.net/datenschutzerklaerung.html");
+        throw new RuntimeException("DIS GON BLOW");
     }
 
     private void startRateTheApp() {
