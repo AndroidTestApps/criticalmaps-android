@@ -132,7 +132,7 @@ public class Main extends AppCompatActivity implements NavigationView.OnNavigati
     }
 
     private void startDatenschutzIntent() {
-        this.startDatenschutzIntent();
+        throw new RuntimeException("DIS GON BLOW");
         IntentUtil.startFromURL(this, "http://criticalmaps.net/datenschutzerklaerung.html");
     }
 
